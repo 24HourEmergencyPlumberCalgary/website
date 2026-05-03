@@ -1,0 +1,97 @@
+Here is a technical instruction set for you to build a website for a local plumbing business. It has been meticulously built by synthesizing the latest industry standards, Reddit community insights, and expert technical SEO advice from 2025 and 2026.
+1. Project Overview & Business Context
+•	Client: Emergency and 24/7 Plumbing Service Calgary
+•	Location: Calgary, Alberta, Canada (Primary Service Area: Zone 1)
+•	Core Keywords:
+o	"24 hour plumber calgary"
+o	"emergency plumber calgary"
+o	"calgary plumber 24 7"
+•	Primary Goal: Drive high-intent phone calls and service bookings from users in urgent distress. Client’s critical information is given below:
+•	Name: 24 Hour Emergency Plumber Calgary
+•	Website: https://www.24houremergencyplumbercalgary.ca
+•	Phone: (403) 771-5925
+•	Email: sunny@24houremergencyplumbercalgary.ca
+•	Core Values in Design:
+o	Speed: Pages must load in under 1.5 seconds.
+o	Reassurance: Design must convey trust, professionalism, and 24/7 availability instantly.
+o	Conversion: The phone number and emergency CTA must be accessible at all times.
+2. Technical Architecture & Environment
+=== CRITICAL: DO NOT USE SLOW CMS OR PAGE BUILDERS ===
+•	Static Site Generation (SSG): Must use a modern, high-performance Static Site Generator (e.g., Astro, Next.js SSG, or Hugo). This ensures zero database latency and extreme speed.
+•	Hosting: I am going to deploy on a global CDN with edge caching (e.g., Cloudflare Pages, Netlify, or Vercel).
+•	CSS Framework: Use a utility-first framework (Tailwind CSS) or pure, optimized CSS to avoid render-blocking JavaScript.
+•	Image Optimization: Must use modern formats (WebP/AVIF) with automatic responsive sizing and lazy loading.
+3. Core Web Vitals & Speed Optimization (P0 Priority)
+Google’s Core Web Vitals are confirmed ranking factors. Failure to meet these thresholds will result in ranking loss.
+•	Largest Contentful Paint (LCP): Must be ≤ 2.5 seconds.
+o	Implementation: Inline critical CSS for above-the-fold content. Defer non-critical JS.
+•	Interaction to Next Paint (INP): Must be ≤ 200 milliseconds.
+o	Implementation: Minimize JavaScript execution time. Avoid heavy third-party scripts (chatbots, trackers) on critical pages unless absolutely necessary.
+•	Cumulative Layout Shift (CLS): Must be ≤ 0.1.
+o	Implementation: Set explicit width and height attributes for all images and videos. Do not inject UI elements dynamically.
+4. Responsive & Mobile-First Design (UI/UX)
+Given that 65%+ of "emergency plumber" searches occur on mobile, we build for the smallest screen first. Adhere strictly to a mobile-first design philosophy.
+•	Navigation Priority:
+o	Header: Logo, "Call Now" button, Menu. Clutter is forbidden.
+•	Touch Targets: All buttons must be at least 44x44 pixels. Ensure adequate spacing between links to prevent mis-clicks.
+•	Readability: Minimum font size of 16px for body text.
+•	The "Emergency" Component:
+o	A sticky header or floating action button (FAB) containing the 24/7 phone number must be visible during scrolling.
+o	A prominent "EMERGENCY DISPATCH" button with a distinct color (e.g., emergency red or bright orange) above the fold.
+5. Security & Compliance
+•	HTTPS: I am going to enforce strict SSL/TLS encryption across the entire domain.
+•	Content Security Policy (CSP) : Implement CSP headers to whitelist resources, mitigating XSS attacks.
+•	Bot Governance:
+o	Ensure robots.txt allows beneficial retrieval agents (Googlebot, OAI-SearchBot) while blocking malicious scrapers to preserve crawl budget.
+6. SEO & Structured Data (Schema) Strategy
+Schema markup is the language of LLMs and ranking engines for 2025/2026.
+Required JSON-LD Structured Data
+You must generate and inject JSON-LD via <script> tags for the following:
+1.	mainEntity: Plumber (Subtype of LocalBusiness). 
+2.	Service Schema: Loop through the array of 10-15 service pages to define specific service areas (e.g., Drain Cleaning, Pipe Repair).
+3.	OpeningHoursSpecification: Explicitly set daysOfWeek and opens/closes. For 24-hour service, indicate opens: "00:00" and closes: "23:59" with a description of "Open 24 Hours".
+4.	GeoCoordinates: Include precise latitude/longitude mapping for Calgary (approx. 51.0447° N, 114.0719° W).
+5.	EmergencyService: Flag the business as an EmergencyService if applicable to the plumbing context.
+6.	LocalBusiness: Include priceRange (e.g., "$$" or "150−150−500") to filter for correct search intent.
+7. High-Quality Content Strategy & Topical Authority
+The site requires 15 high-quality, "Backlink-Worthy" pages. These pages must solve specific user problems.
+Content Quality Rules (To Avoid AI Detection Penalties)
+•	No Generic Fluff: Avoid phrases like "In today's modern world", "Navigating the landscape", or "Unlocking potential".
+•	Authority & Tone: Write in a conversational, authoritative, yet empathetic tone ("We know a broken pipe is stressful. Here’s what to do right now...").
+•	Differentiation: Content must include unique data or local Calgary insights (e.g., "Why Calgary's freeze-thaw cycles cause specific pipe shifts").
+The 10-15 Page Blueprint (Cluster Model)
+•	Pillar Page: "Emergency Plumbing Calgary: 24/7 Rapid Response".
+•	Service Pages (Conversion Focused) :
+o	24 Hour Plumber Calgary
+o	Emergency Plumber Calgary
+o	Burst Pipe Repair Calgary
+o	Drain Cleaning & Augering
+o	Water Heater Installation/Tankless
+o	Calgary Frozen Pipe Thawing (Seasonal)
+o	Sump Pump Repair
+o	Sewer Line Inspection
+•	Backlink & Shareable Assets (10-15 Pages) :
+1.	Page A (Data) : "2026 Calgary Water Hardness Report: The Impact on Your Pipes". (Targets local news/real estate sites).
+2.	Page B (DIY) : "The Official Calgary Homeowner’s Checklist: How to Winterize Your Outdoor Faucets".
+3.	Page C (Comparison) : "Tankless vs. Traditional Water Heaters: A Cost/Benefit Analysis for Alberta Homes".
+4.	Page D (Visual/Guide) : "Anatomy of a Calgary Home: Where Your Shut-Off Valve Is Probably Hiding".
+•	Local Neighborhood Pages: Create 3-5 pages targeting specific suburbs {NW Calgary, SE Calgary, Airdrie, Chestermere} with micro-local keywords.
+8. Optimization for "Generative Engine Optimization" (GEO)
+•	Bottom Line Up Front (BLUF) : Structure articles so the conclusion and answer are within the first ~120 characters to get cited in AI Overviews.
+•	Entity Linking: Ensure every location mention (Calgary, Alberta) is full text, not abbreviations.
+9. Conversion Rate Optimization (CRO)
+•	Call-to-Action (CTA) :
+o	Primary: TAP TO CALL (Starts mobile dialer).
+o	Secondary: Book a Technician (Connects to a "Dispatched within 60 minutes" form).
+•	Trust Signals:
+o	Include 'verified' Calgary Google Reviews.
+o	Badges: "Licensed & Insured", "Backflow Certified", "BBB Accredited".
+10. Final Delivery Checklist for the Agent
+Before returning the project, the agent MUST validate:
+1.	Lighthouse performance score on Mobile: 95+.
+2.	Google Rich Results Test: Valid JSON-LD for Plumber and Service.
+3.	No index.html duplicates; URLs are clean (/emergency-plumber-calgary).
+4.	All images compressed to <100kb (where possible) and served via next-gen format.
+5.	Make sure all pages are internally linked using the related keywords and make sure all pages link to governmental/city or other authority websites for related keywords so that the webpage looks like its linking out to external useful resources.
+Use this instruction set as your strict blueprint. Do not deviate for stylistic purposes. Ensure the final build prioritizes speed and conversion over visual fluff.
+
